@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
   font-family: "Roboto", sans-serif;
 
@@ -250,4 +253,55 @@ nav ul li a:hover{
 }
 .image-container img:hover{
     opacity: 1;
+}
+#contact{
+    margin: 5% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: gray;
+}
+.right-info{
+    width: 500px;
+}
+.address h2,
+.working-hours h2,
+.follow-us h2{
+    font-size: 50px;
+    margin: 30px 0 10px;
+    color: black;
+}
+.address i{
+    color: #e6b33c;
+    margin-bottom: 10px;
+
+}
+.follow-us a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    width: 500px;
+    height: 60px;
+    margin: 10px 0;
+    background-color: yellow;
+    opacity: 0.3;
+}
+footer{
+    background-color: #383848;
+    text-align: center;
+    color:#fff ;
+    padding:15px 0;
+    font-size: 14px;
+}
+footer p a{
+    text-decoration: none;
+    color: #fff;
 }
